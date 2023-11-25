@@ -149,13 +149,13 @@ img {
 
   /*Modal window*/
 
-  .is-hidden {
+  .review-is-hidden {
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
   }
 
-  .backdrop {
+  .review-backdrop {
     position: fixed;
     top: 0;
     left: 0;

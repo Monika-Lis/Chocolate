@@ -67,7 +67,7 @@
     height: 169px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: url('images/subscribe_modal_image-mobile.jpg');
+    background: url('../images/subscribe_modal_image-mobile.jpg');
   }
 
   .subscribe_modal-title {
@@ -237,7 +237,7 @@
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: url('images/subscribe_modal_image-mobile.jpg');
+    background: url('../images/subscribe_modal_image-mobile.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -245,7 +245,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe_modal-image {
-      background-image: url('images/subscribe_modal_image-desktop_tablet.jpg');
+      background-image: url('../images/subscribe_modal_image-desktop_tablet.jpg');
       border-top-right-radius: 15px;
       border-top-left-radius: 15px;
     }
@@ -422,7 +422,7 @@
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background: url('images/subscribe_modal_image-mobile.jpg');
+    background: url('../images/subscribe_modal_image-mobile.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -430,7 +430,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe_modal-image {
-      background-image: url('images/subscribe_modal_image-desktop_tablet.jpg');
+      background-image: url('../images/subscribe_modal_image-desktop_tablet.jpg');
       border-top-right-radius: 15px;
       border-top-left-radius: 15px;
     }
