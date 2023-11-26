@@ -1,7 +1,8 @@
-@media (min-width: 376px) {
+@media (min-width: 375px) {
   .reviews-section {
     background-color: #fafafa;
   }
+
   .reviews-container {
     width: 335px;
     margin: 0 auto;
@@ -343,6 +344,7 @@
     display: inline-block;
     justify-content: center;
   }
+
   .reviews-button {
     font-size: 18px;
     min-width: 222px;
