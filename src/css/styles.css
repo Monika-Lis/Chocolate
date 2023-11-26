@@ -9,6 +9,7 @@
 @import url(our-products.css);
 @import url(top-sellers.css);
 @import url(modal-subscribe.css);
+@import url(subscribe.css);
 
 body {
   font-family: 'Montserrat', sans-serif;
