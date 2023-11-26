@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap');
 
-@media (min-width: 376px) {
+@media (min-width: 375px) {
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -42,6 +42,7 @@
   .hero-container-paragraf {
     max-width: 295px;
   }
+
   .hero-paragraf {
     color: #fff;
     font-size: 20px;
@@ -87,6 +88,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .hero-buy-button:hover,
   .hero-buy-button:focus {
     color: #fd9222;
@@ -109,6 +111,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .hero-him-button:hover,
   .hero-him-button:focus {
     color: #fd9222;
@@ -142,13 +145,15 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .hero-scroll-text {
     color: #fff;
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px; /* 116.667% */
+    line-height: 14px;
+    /* 116.667% */
     letter-spacing: -0.36px;
     margin-right: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -165,16 +170,20 @@
     color: #fd9222;
     fill: #fd9222;
   }
+
   .hero-scroll-container:hover .hero-svg-circle,
   .hero-scroll-container:focus .hero-svg-circle {
     background-color: #fd9222;
   }
+
   .hero-scroll-container:hover .hero-scroll-icon,
   .hero-scroll-container:focus .hero-scroll-icon {
     fill: white;
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .hero-container {
       background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
         url(../images/hero_mobile_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
@@ -202,6 +211,7 @@
   .hero-container-paragraf {
     max-width: 484px;
   }
+
   .hero-paragraf {
     font-size: 28px;
     line-height: 1.21;
@@ -242,14 +252,15 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px; /* 116.667% */
+    line-height: 14px;
+    /* 116.667% */
     letter-spacing: -0.03em;
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx),
-    screen and (min-width: 768px) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx),
+  screen and (min-width: 768px) {
     .hero-container {
       background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
         url(../images/hero_tablet-cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;
@@ -276,6 +287,7 @@
   .hero-container-paragraf {
     max-width: 484px;
   }
+
   .hero-paragraf {
     font-size: 28px;
     font-weight: 500;
@@ -309,7 +321,9 @@
     margin-right: 14px;
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .hero-container {
       background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
         url(../images/hero_desktop_cover@2x.jpg), lightgray -435.077px -7.879px / 282.839% 101.752%;

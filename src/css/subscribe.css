@@ -1,4 +1,4 @@
-@media (min-width: 376px) {
+@media (min-width: 375px) {
   .subscribe-section {
     background-color: #fafafa;
     max-width: 375px;
@@ -12,7 +12,9 @@
     padding: 62px 20px 63px;
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .hero-image {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
         url(../images/Subscribe@x2.jpg);
@@ -81,7 +83,9 @@
     padding: 72px 150px;
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .hero-image {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
         url(../images/Subscribe2@x2.jpg);
@@ -115,7 +119,9 @@
     padding: 72px 366px;
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .hero-image {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
         url(../images/Subscribe3@x2.jpg);
