@@ -1,4 +1,4 @@
-@media (min-width: 376px) {
+@media (min-width: 375px) {
   /*Modal window*/
 
   .buy-is-hidden {
@@ -65,7 +65,8 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 120% */
+    line-height: 24px;
+    /* 120% */
     letter-spacing: -0.6px;
     text-transform: uppercase;
     margin-bottom: 32px;
@@ -109,6 +110,7 @@
     width: 84px;
     height: 69px;
   }
+
   .gram {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -312,6 +314,7 @@
     width: 120px;
     height: 107px;
   }
+
   .gram {
     min-width: 96px;
     height: 33px;
@@ -396,6 +399,7 @@
     width: 120px;
     height: 107px;
   }
+
   .gram {
     min-width: 96px;
     height: 33px;
